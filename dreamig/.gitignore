@@ -1,0 +1,17 @@
+#gitで管理しないファイルの指定
+#拡張子で除外
+*.coproj
+*.cogui
+*.comarker
+
+#ディレクトリで指定
+ichigoplus/
+logs/
+layer_driver/board/
+
+#ファイル名で指定
+componentfile.history
+newDocument.txt
+
+#例外ファイルを指定
+!ichigoplus.coproj
